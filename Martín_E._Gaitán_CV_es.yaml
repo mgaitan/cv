@@ -109,7 +109,7 @@ cv:
           - Promedio 9,37.
     habilidades:
       - label: Lenguajes
-        details: Python, JavaScript, Fortran, SQL, Rust (FFI)
+        details: Python, JavaScript, Fortran, SQL, Rust (maturin)
       - label: Backend
         details: Django, FastAPI, APIs REST/GraphQL
       - label: Tooling

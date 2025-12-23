@@ -1,0 +1,132 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.5/schema.json
+cv:
+  name: Martín E. Gaitán
+  headline: Staff Engineer | Python/Django | Developer Experience
+  location: Córdoba, Argentina
+  email: gaitan@gmail.com
+  phone: "+54 9 3513308454"
+  website: https://mgaitan.github.io
+  social_networks:
+    - network: GitHub
+      username: mgaitan
+    - network: LinkedIn
+      username: martingaitan
+  sections:
+    profile:
+      - Computer Engineering (UNC). Pythonista since 2006, focused on tooling, DX, and web applications.
+      - Experience leading remote teams and open source projects; advocate of open standards and free software.
+      - Broad professional experience and strong in agent-assisted development, with continuous learning as a daily practice.
+      - Technical blog at [mgaitan.github.io](https://mgaitan.github.io).
+    experience:
+      - company: ShipHero
+        position: Staff Engineer / Developer Experience Team Manager
+        start_date: 2019-10
+        end_date: 2025-09
+        location: Remote
+        highlights:
+          - Led the Developer Experience team and internal engineering platform.
+          - Built the central CLI for engineering workflows.
+          - Improved tooling, CI, and productivity for distributed teams.
+      - company: Instituto Técnico Superior de Córdoba
+        position: Lecturer - Software Development Technician Program
+        start_date: 2016-03
+        end_date: 2020-12
+        location: Córdoba, Argentina
+        highlights:
+          - Professional Practice II (3rd year).
+      - company: Onapsis Inc.
+        position: Senior Python Developer
+        start_date: 2015-11
+        end_date: 2019-07
+        location: Córdoba, Argentina
+        highlights:
+          - Built a cybersecurity platform for Fortune 500 companies.
+          - Contributed to the architecture team and core Python components.
+      - company: Freelance / Upwork
+        position: Python Developer
+        start_date: 2013-08
+        end_date: 2015-07
+        location: Remote
+        highlights:
+          - Web projects and automation for international clients.
+      - company: Phasety
+        position: Co-founder
+        date: 2011-2013
+        location: Córdoba, Argentina
+        highlights:
+          - Scientific software for the oil and gas industry.
+          - Incubated by Universidad Nacional de Córdoba (Tecnoemprendedores).
+      - company: Machinalis S.R.L.
+        position: Senior Python / Django Developer
+        start_date: 2011-04
+        end_date: 2012-08
+        location: Córdoba, Argentina
+        highlights:
+          - Built web applications and APIs with Django.
+    projects:
+      - name: "[sphinxcontrib-mermaid](https://github.com/mgaitan/sphinxcontrib-mermaid)"
+        summary: Sphinx extension for Mermaid diagrams.
+        highlights:
+          - Community-maintained open source project.
+      - name: "[waliki](https://github.com/mgaitan/waliki)"
+        summary: Wiki engine based on Django and Git.
+      - name: "[fortran_magic](https://github.com/mgaitan/fortran_magic)"
+        summary: IPython/Jupyter extension to integrate Fortran in notebooks.
+      - name: "[python-package-copier-templates](https://github.com/mgaitan/python-package-copier-templates)"
+        summary: Python project templates with Copier and best practices.
+      - name: "[pytest-portion](https://github.com/mgaitan/pytest-portion)"
+        summary: Pytest plugin for incremental/portion-based test runs.
+      - name: "[richterm](https://github.com/mgaitan/richterm)"
+        summary: Terminal/CLI utilities with Rich for DX.
+      - name: "[preciosa](https://github.com/mgaitan/preciosa)"
+        summary: Collaborative platform for price data collection.
+      - name: "[curso-python-cientifico](https://github.com/mgaitan/curso-python-cientifico)"
+        summary: Python course for science and engineering.
+    open_source:
+      - Contributions to Cython, MoviePy, IPython/Jupyter, Django, and Ruff.
+      - Maintainer of tools and extensions for the Python ecosystem.
+    education:
+      - institution: Universidad Nacional de Córdoba
+        area: Computer Engineering
+        start_date: 2005-03
+        end_date: 2011-12
+        location: Córdoba, Argentina
+        highlights:
+          - "Capstone project: Thermodynamic diagram visualization software."
+      - institution: Universidad Nacional del Comahue
+        area: Electronic Engineering
+        start_date: 2001-03
+        end_date: 2003-12
+        location: Neuquén, Argentina
+        highlights:
+          - 19 courses completed.
+      - institution: EPET Nro 14
+        area: Electronics Technician
+        start_date: 1995-03
+        end_date: 2000-12
+        location: Neuquén, Argentina
+        highlights:
+          - GPA 9.37.
+    skills:
+      - label: Languages
+        details: Python, JavaScript, Fortran, SQL, Rust (maturin)
+      - label: Backend
+        details: Django, FastAPI, REST/GraphQL APIs
+      - label: Tooling
+        details: CLI/TUI, Rust-Python integration, GitHub Actions, pytest
+      - label: Data and optimization
+        details: Pandas, data cleaning, scraping, SciPy, OR-Tools, NumPy
+      - label: ML/LLMs
+        details: RAGs, LLM integration in products
+      - label: Infra
+        details: Docker, Linux, PostgreSQL, vector databases
+    languages:
+      - label: English
+        details: Excellent reading and writing; solid speaking and listening for professional technical work.
+    community:
+      - Speaker at national and international conferences.
+      - Member of Python Argentina.
+      - Founding member of Open Data Córdoba, a civic hacktivism collective (election tallies, food prices, and more).
+      - Teaching assistant for Operating Systems I (UNC).
+design:
+  theme: classic
