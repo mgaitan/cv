@@ -13,10 +13,10 @@ cv:
       username: martingaitan
   sections:
     profile:
-      - Computer Engineering (UNC). Pythonista since 2006, focused on tooling, DX, and web applications.
+      - Computer Engineering (UNC). Python expert (started in 2006), focused on tooling, DX, and web applications.
       - Experience leading remote teams and open source projects; advocate of open standards and free software.
-      - Broad professional experience and strong in agent-assisted development, with continuous learning as a daily practice.
-      - Technical blog at [mgaitan.github.io](https://mgaitan.github.io).
+      - Broad professional experience and currently strong in agent-assisted development, with continuous learning as a daily practice.
+      - Technical blog at [mgaitan.github.io](https://mgaitan.github.io/en).
     experience:
       - company: ShipHero
         position: Staff Engineer / Developer Experience Team Manager
@@ -27,13 +27,6 @@ cv:
           - Led the Developer Experience team and internal engineering platform.
           - Built the central CLI for engineering workflows.
           - Improved tooling, CI, and productivity for distributed teams.
-      - company: Instituto Técnico Superior de Córdoba
-        position: Lecturer - Software Development Technician Program
-        start_date: 2016-03
-        end_date: 2020-12
-        location: Córdoba, Argentina
-        highlights:
-          - Professional Practice II (3rd year).
       - company: Onapsis Inc.
         position: Senior Python Developer
         start_date: 2015-11
@@ -42,6 +35,13 @@ cv:
         highlights:
           - Built a cybersecurity platform for Fortune 500 companies.
           - Contributed to the architecture team and core Python components.
+      - company: Instituto Técnico Superior de Córdoba
+        position: Lecturer - Software Development Technician Program
+        start_date: 2016-03
+        end_date: 2020-12
+        location: Córdoba, Argentina
+        highlights:
+          - Professional Practice II (3rd year).
       - company: Freelance / Upwork
         position: Python Developer
         start_date: 2013-08
@@ -123,6 +123,8 @@ cv:
     languages:
       - label: English
         details: Excellent reading and writing; solid speaking and listening for professional technical work.
+      - label: Spanish
+        details: Native speaker
     community:
       - Speaker at national and international conferences.
       - Member of Python Argentina.

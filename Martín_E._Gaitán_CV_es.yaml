@@ -123,6 +123,8 @@ cv:
     idiomas:
       - label: Inglés
         details: Excelente en lectura y escritura; buen desempeño oral y comprensión para trabajo técnico profesional.
+      - label: Español
+        details: Hablante nativo
     comunidad:
       - Disertante en conferencias nacionales e internacionales.
       - Miembro de Python Argentina.
