@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.5/schema.json
 cv:
   name: Martín E. Gaitán
-  headline: Staff Engineer | Python/Django | Developer Experience
+  headline: Computer Engineer | Python expert | Developer Experience, data and backend web systems
   location: Córdoba, Argentina
   email: gaitan@gmail.com
   phone: "+54 9 3513308454"
@@ -92,7 +92,7 @@ cv:
         end_date: 2011-12
         location: Córdoba, Argentina
         highlights:
-          - "Capstone project: Thermodynamic diagram visualization software."
+          - "Capstone project: GPEC 2010 (Global Phase Equilibrium Calculations)."
       - institution: Universidad Nacional del Comahue
         area: Electronic Engineering
         start_date: 2001-03
@@ -115,7 +115,7 @@ cv:
       - label: Tooling
         details: CLI/TUI, Rust-Python integration, GitHub Actions, pytest
       - label: Data and optimization
-        details: Pandas, data cleaning, scraping, SciPy, OR-Tools, NumPy
+        details: Pandas, ETL, data cleaning, visualization, scraping, SciPy, OR-Tools, NumPy
       - label: ML/LLMs
         details: RAGs, LLM integration in products
       - label: Infra
