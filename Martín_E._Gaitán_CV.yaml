@@ -1,0 +1,118 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.5/schema.json
+cv:
+  name: Martín E. Gaitán
+  headline: Staff Engineer | Python/Django | Developer Experience
+  location: Córdoba, Argentina
+  email: gaitan@gmail.com
+  phone: "+54 9 3513308454"
+  website: https://mgaitan.github.io
+  social_networks:
+    - network: GitHub
+      username: mgaitan
+    - network: LinkedIn
+      username: martingaitan
+  sections:
+    perfil:
+      - Ingeniero en Computación (UNC). Pythonista desde 2006, foco en tooling, DX y aplicaciones web.
+      - Experiencia liderando equipos remotos y proyectos open source; promotor de estándares abiertos y software libre.
+      - Blog técnico en https://mgaitan.github.io y blog personal en https://textosypretextos.com.ar.
+    experiencia:
+      - company: ShipHero
+        position: Staff Engineer / Developer Experience Team Manager
+        start_date: 2019-10
+        end_date: present
+        location: Remote
+        highlights:
+          - Liderazgo de equipo de Developer Experience y plataforma interna para ingeniería.
+          - Mejoras en tooling, CI y productividad de equipos distribuidos.
+      - company: Onapsis Inc.
+        position: Senior Python Developer
+        start_date: 2015-11
+        end_date: 2019-07
+        location: Córdoba, Argentina
+        highlights:
+          - Desarrollo de plataforma de ciberseguridad para compañías Fortune 500.
+          - Participación en equipo de arquitectura y componentes core en Python.
+      - company: Freelance / Upwork
+        position: Python Developer
+        start_date: 2013-08
+        end_date: 2015-07
+        location: Remote
+        highlights:
+          - Proyectos web y automatización para clientes internacionales.
+      - company: Phasety
+        position: Co-fundador
+        date: 2011-2013
+        location: Córdoba, Argentina
+        highlights:
+          - Software científico para la industria del petróleo y gas.
+          - Proyecto incubado por la Universidad Nacional de Córdoba (Tecnoemprendedores).
+      - company: Machinalis S.R.L.
+        position: Senior Python / Django Developer
+        start_date: 2011-04
+        end_date: 2012-08
+        location: Córdoba, Argentina
+        highlights:
+          - Desarrollo de aplicaciones web y APIs en Django.
+    proyectos:
+      - name: "[sphinxcontrib-mermaid](https://github.com/mgaitan/sphinxcontrib-mermaid)"
+        summary: Extensión de Sphinx para diagramas Mermaid.
+        highlights:
+          - Proyecto open source mantenido por la comunidad.
+      - name: "[waliki](https://github.com/mgaitan/waliki)"
+        summary: Wiki engine basado en Django y Git.
+      - name: "[fortran_magic](https://github.com/mgaitan/fortran_magic)"
+        summary: Extensión para IPython/Jupyter que integra Fortran en notebooks.
+      - name: "[preciosa](https://github.com/mgaitan/preciosa)"
+        summary: Plataforma colaborativa para relevamiento de precios.
+      - name: "[curso-python-cientifico](https://github.com/mgaitan/curso-python-cientifico)"
+        summary: Curso de Python para ciencias e ingeniería.
+    open_source:
+      - Contribuciones a Cython, MoviePy, IPython/Jupyter, Django y Ruff.
+      - Mantenimiento de herramientas y extensiones para el ecosistema Python.
+    formacion:
+      - institution: Universidad Nacional de Córdoba
+        area: Ingeniería en Computación
+        start_date: 2005-03
+        end_date: 2011-12
+        location: Córdoba, Argentina
+        highlights:
+          - Proyecto integrador: Software de visualización de diagramas termodinámicos.
+      - institution: Universidad Nacional del Comahue
+        area: Ingeniería Electrónica
+        start_date: 2001-03
+        end_date: 2003-12
+        location: Neuquén, Argentina
+        highlights:
+          - 19 materias aprobadas.
+      - institution: EPET Nro 14
+        area: Técnico Electrónico
+        start_date: 1995-03
+        end_date: 2000-12
+        location: Neuquén, Argentina
+        highlights:
+          - Promedio 9,37.
+    habilidades:
+      - label: Lenguajes
+        details: Python, JavaScript, Fortran, SQL
+      - label: Web
+        details: Django, APIs REST/GraphQL, HTML, CSS
+      - label: Datos
+        details: NumPy, SciPy, Pandas, Matplotlib, Scikit-learn
+      - label: Sistemas
+        details: Linux, automatización, despliegues
+      - label: Gestión
+        details: Git, metodologías ágiles (SCRUM, XP)
+    idiomas:
+      - label: Inglés
+        details: Lectoescritura muy buena, oralidad buena
+      - label: Portugués
+        details: Lectoescritura y oralidad buena
+      - label: Francés
+        details: Lectocomprensión
+    comunidad:
+      - Disertante en conferencias nacionales e internacionales.
+      - Miembro de Python Argentina, GrULiC e ITLiC.
+      - Ayudante de cátedra en Sistemas Operativos I (UNC).
+design:
+  theme: classic
