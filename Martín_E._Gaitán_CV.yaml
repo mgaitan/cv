@@ -16,7 +16,7 @@ cv:
       - Ingeniero en Computación (UNC). Pythonista desde 2006, foco en tooling, DX y aplicaciones web.
       - Experiencia liderando equipos remotos y proyectos open source; promotor de estándares abiertos y software libre.
       - Amplia experiencia profesional y dominio de desarrollo asistido por agentes, con aprendizaje continuo como práctica habitual.
-      - Blog técnico en [mgaitan.github.io](https://mgaitan.github.io) y blog personal en [textosypretextos.com.ar](https://textosypretextos.com.ar).
+      - Blog técnico en [mgaitan.github.io](https://mgaitan.github.io).
     experiencia:
       - company: ShipHero
         position: Staff Engineer / Developer Experience Team Manager
@@ -27,6 +27,13 @@ cv:
           - Liderazgo de equipo de Developer Experience y plataforma interna para ingeniería.
           - Desarrollo del CLI central para workflows de ingeniería.
           - Mejoras en tooling, CI y productividad de equipos distribuidos.
+      - company: Instituto Técnico Superior de Córdoba
+        position: Docente - Tecnicatura en Desarrollo de Software
+        start_date: 2016-03
+        end_date: 2020-12
+        location: Córdoba, Argentina
+        highlights:
+          - Práctica Profesionalizante II (3er año).
       - company: Onapsis Inc.
         position: Senior Python Developer
         start_date: 2015-11
@@ -78,7 +85,7 @@ cv:
     open_source:
       - Contribuciones a Cython, MoviePy, IPython/Jupyter, Django y Ruff.
       - Mantenimiento de herramientas y extensiones para el ecosistema Python.
-    formacion:
+    formación:
       - institution: Universidad Nacional de Córdoba
         area: Ingeniería en Computación
         start_date: 2005-03
@@ -119,7 +126,7 @@ cv:
     comunidad:
       - Disertante en conferencias nacionales e internacionales.
       - Miembro de Python Argentina.
-      - Socio fundador de Open Data Córdoba, colectivo de hacktivismo cívico (escrutinios electorales, precios de alimentos y otros).
+      - Miembro fundador de Open Data Córdoba, colectivo de hacktivismo cívico (escrutinios electorales, precios de alimentos y otros).
       - Ayudante de cátedra en Sistemas Operativos I (UNC).
 design:
   theme: classic
