@@ -15,15 +15,17 @@ cv:
     perfil:
       - Ingeniero en Computación (UNC). Pythonista desde 2006, foco en tooling, DX y aplicaciones web.
       - Experiencia liderando equipos remotos y proyectos open source; promotor de estándares abiertos y software libre.
-      - Blog técnico en https://mgaitan.github.io y blog personal en https://textosypretextos.com.ar.
+      - Amplia experiencia profesional y dominio de desarrollo asistido por agentes, con aprendizaje continuo como práctica habitual.
+      - Blog técnico en [mgaitan.github.io](https://mgaitan.github.io) y blog personal en [textosypretextos.com.ar](https://textosypretextos.com.ar).
     experiencia:
       - company: ShipHero
         position: Staff Engineer / Developer Experience Team Manager
         start_date: 2019-10
-        end_date: present
+        end_date: 2025-09
         location: Remote
         highlights:
           - Liderazgo de equipo de Developer Experience y plataforma interna para ingeniería.
+          - Desarrollo del CLI central para workflows de ingeniería.
           - Mejoras en tooling, CI y productividad de equipos distribuidos.
       - company: Onapsis Inc.
         position: Senior Python Developer
@@ -63,6 +65,12 @@ cv:
         summary: Wiki engine basado en Django y Git.
       - name: "[fortran_magic](https://github.com/mgaitan/fortran_magic)"
         summary: Extensión para IPython/Jupyter que integra Fortran en notebooks.
+      - name: "[python-package-copier-templates](https://github.com/mgaitan/python-package-copier-templates)"
+        summary: Plantillas de proyectos Python con Copiers y buenas prácticas.
+      - name: "[pytest-portion](https://github.com/mgaitan/pytest-portion)"
+        summary: Plugin de pytest para tests por porciones/selección progresiva.
+      - name: "[richterm](https://github.com/mgaitan/richterm)"
+        summary: Utilidades de terminal/CLI con Rich para DX.
       - name: "[preciosa](https://github.com/mgaitan/preciosa)"
         summary: Plataforma colaborativa para relevamiento de precios.
       - name: "[curso-python-cientifico](https://github.com/mgaitan/curso-python-cientifico)"
@@ -94,25 +102,24 @@ cv:
           - Promedio 9,37.
     habilidades:
       - label: Lenguajes
-        details: Python, JavaScript, Fortran, SQL
-      - label: Web
-        details: Django, APIs REST/GraphQL, HTML, CSS
-      - label: Datos
-        details: NumPy, SciPy, Pandas, Matplotlib, Scikit-learn
-      - label: Sistemas
-        details: Linux, automatización, despliegues
-      - label: Gestión
-        details: Git, metodologías ágiles (SCRUM, XP)
+        details: Python, JavaScript, Fortran, SQL, Rust (FFI)
+      - label: Backend
+        details: Django, FastAPI, APIs REST/GraphQL
+      - label: Tooling
+        details: CLI/TUI, integración Rust-Python, GitHub Actions, pytest
+      - label: Datos y optimización
+        details: Pandas, data cleaning, scraping, SciPy, OR-Tools, NumPy
+      - label: ML/LLMs
+        details: RAGs, integración de LLMs en productos
+      - label: Infra
+        details: Docker, Linux, PostgreSQL, bases vectoriales
     idiomas:
       - label: Inglés
-        details: Lectoescritura muy buena, oralidad buena
-      - label: Portugués
-        details: Lectoescritura y oralidad buena
-      - label: Francés
-        details: Lectocomprensión
+        details: Excelente en lectura y escritura; buen desempeño oral y comprensión para trabajo técnico profesional.
     comunidad:
       - Disertante en conferencias nacionales e internacionales.
-      - Miembro de Python Argentina, GrULiC e ITLiC.
+      - Miembro de Python Argentina.
+      - Socio fundador de Open Data Córdoba, colectivo de hacktivismo cívico (escrutinios electorales, precios de alimentos y otros).
       - Ayudante de cátedra en Sistemas Operativos I (UNC).
 design:
   theme: classic
