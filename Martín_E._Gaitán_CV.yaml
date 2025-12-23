@@ -77,7 +77,7 @@ cv:
         end_date: 2011-12
         location: Córdoba, Argentina
         highlights:
-          - Proyecto integrador: Software de visualización de diagramas termodinámicos.
+          - "Proyecto integrador: Software de visualización de diagramas termodinámicos."
       - institution: Universidad Nacional del Comahue
         area: Ingeniería Electrónica
         start_date: 2001-03
