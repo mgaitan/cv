@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="refresh" content="0; url=Martin_E_Gaitan_CV_en.pdf" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>CV - Martin E. Gaitan</title>
+    </head>
+    <body>
+        <noscript>
+            <p>Open PDF:</p>
+            <p>
+                <a href="Martin_E_Gaitan_CV_en.pdf">CV in PDF (EN)</a>
+                |
+                <a href="Martin_E_Gaitan_CV_es.pdf">CV in PDF (ES)</a>
+            </p>
+        </noscript>
+        <script>
+            const pdfUrl = "Martin_E_Gaitan_CV_en.pdf";
+            const link = document.createElement("a");
+            link.href = pdfUrl;
+            link.download = "Martin_E_Gaitan_CV_en.pdf";
+            document.body.appendChild(link);
+            link.click();
+            window.location.replace(pdfUrl);
+        </script>
+    </body>
+</html>

@@ -1,3 +1,6 @@
 raw_sources/
 rendercv_output/*
 !rendercv_output/*.pdf
+!rendercv_output/index.html
+!rendercv_output/index.en.html
+!rendercv_output/index.es.html

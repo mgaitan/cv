@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>CV - Martin E. Gaitan</title>
+    </head>
+    <body>
+        <noscript>
+            <p>Choose language / Elegi idioma:</p>
+            <p>
+                <a href="index.en.html">English</a>
+                |
+                <a href="index.es.html">Espanol</a>
+            </p>
+            <p>
+                <a href="Martin_E_Gaitan_CV_en.pdf">PDF (EN)</a>
+                |
+                <a href="Martin_E_Gaitan_CV_es.pdf">PDF (ES)</a>
+            </p>
+        </noscript>
+        <script>
+            const params = new URLSearchParams(window.location.search);
+            const pickLang = (value) => {
+                const v = String(value || "").toLowerCase();
+                if (v.startsWith("es")) return "es";
+                if (v.startsWith("en")) return "en";
+                return null;
+            };
+            const forced = pickLang(params.get("lang"));
+            const browserLang =
+                (navigator.languages && navigator.languages[0]) ||
+                navigator.language ||
+                "en";
+            const lang = forced || pickLang(browserLang) || "en";
+            const target = lang === "es" ? "index.es.html" : "index.en.html";
+            window.location.replace(target + (forced ? "?lang=" + lang : ""));
+        </script>
+    </body>
+</html>

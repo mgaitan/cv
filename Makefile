@@ -1,7 +1,7 @@
 RENDERCV = uvx --from=rendercv[full] rendercv render
-YAML_ES = Martín_E._Gaitán_CV_es.yaml
-YAML_EN = Martín_E._Gaitán_CV_en.yaml
-OUTPUT_BASE = Martín_E._Gaitán_CV
+YAML_ES = Martin_E_Gaitan_CV_es.yaml
+YAML_EN = Martin_E_Gaitan_CV_en.yaml
+OUTPUT_BASE = Martin_E_Gaitan_CV
 
 .PHONY: all es en
 all: es en

@@ -15,8 +15,8 @@ make
 ```
 
 Salidas principales:
-- `rendercv_output/Martín_E._Gaitán_CV_es.pdf`
-- `rendercv_output/Martín_E._Gaitán_CV_en.pdf`
+- `rendercv_output/Martin_E_Gaitan_CV_es.pdf`
+- `rendercv_output/Martin_E_Gaitan_CV_en.pdf`
 
 ## English
 
@@ -29,5 +29,5 @@ make
 ```
 
 Main outputs:
-- `rendercv_output/Martín_E._Gaitán_CV_es.pdf`
-- `rendercv_output/Martín_E._Gaitán_CV_en.pdf`
+- `rendercv_output/Martin_E_Gaitan_CV_es.pdf`
+- `rendercv_output/Martin_E_Gaitan_CV_en.pdf`
