@@ -13,10 +13,11 @@ cv:
       username: martingaitan
   sections:
     perfil:
-      - Ingeniero en Computación (UNC). Pythonista desde 2006, foco en tooling, DX y aplicaciones web.
+      - Ingeniero en Computación (Universidad Nacional de Córdoba, 2011). Pythonista desde 2006, foco en tooling, developer experience y backend web.
       - Experiencia liderando equipos remotos y proyectos open source; promotor de estándares abiertos y software libre.
-      - Amplia experiencia profesional y dominio de desarrollo asistido por agentes, con aprendizaje continuo como práctica habitual.
-      - Blog técnico en [mgaitan.github.io](https://mgaitan.github.io).
+      - Amplia experiencia profesional como desarrollador, arquitecto, divulgador y docente.
+      - Dominio de desarrollo asistido por agentes. Aprendizaje continuo como práctica habitual.
+      - Mantengo un weblog técnico en español e inglés en [mgaitan.github.io](https://mgaitan.github.io).
     experiencia:
       - company: ShipHero
         position: Staff Engineer / Developer Experience Team Manager
@@ -40,8 +41,8 @@ cv:
         end_date: 2019-07
         location: Córdoba, Argentina
         highlights:
-          - Desarrollo de plataforma de ciberseguridad para compañías Fortune 500.
-          - Participación en equipo de arquitectura y componentes core en Python.
+          - Desarrollador senior de la plataforma de ciberseguridad y compliance (Onapsis Security Platform) para compañías Fortune 500.
+          - Mi último rol fue en el equipo de arquitectura.
       - company: Freelance / Upwork
         position: Python Developer
         start_date: 2013-08
@@ -55,10 +56,11 @@ cv:
         date: 2011-2013
         location: Córdoba, Argentina
         highlights:
-          - Software científico para la industria del petróleo y gas.
-          - Proyecto incubado por la Universidad Nacional de Córdoba (Tecnoemprendedores).
-      - company: Machinalis S.R.L.
-        position: Senior Python / Django Developer
+          - Software científico para modelado termodinámico aplicado a la industria del petróleo y gas.
+          - "Tecnologías: NumPy, SciPy, Fortran, Matplotlib, Jupyter, etc."
+          - Proyecto incubado por la Universidad Nacional de Córdoba (Programa Tecnoemprendedores 2011-2013).
+      - company: Machinalis
+        position: Desarrollador Django
         start_date: 2011-04
         end_date: 2012-08
         location: Córdoba, Argentina
@@ -83,17 +85,20 @@ cv:
         summary: Plataforma colaborativa para relevamiento de precios.
       - name: "[curso-python-cientifico](https://github.com/mgaitan/curso-python-cientifico)"
         summary: Curso de Python para ciencias e ingeniería.
+      - name: "[Otros proyectos](https://github.com/mgaitan?tab=repositories)"
+        summary: Tengo más de 300 proyectos en GitHub, muchos de los cuales sigo manteniendo.
     open_source:
-      - Contribuciones a Cython, MoviePy, IPython/Jupyter, Django y Ruff.
+      - "Contribuciones destacables en Cython, MoviePy, IPython/Jupyter, Django y Ruff."
       - Mantenimiento de herramientas y extensiones para el ecosistema Python.
     formación:
       - institution: Universidad Nacional de Córdoba
         area: Ingeniería en Computación
         start_date: 2005-03
-        end_date: 2011-12
+        end_date: 2011-03
         location: Córdoba, Argentina
         highlights:
-          - "Proyecto integrador: GPEC 2010 (Global Phase Equilibrium Calculations)."
+          - "Proyecto integrador: GPEC 2010 (Global Phase Equilibrium Calculations). Software de visualización de diagramas de equilibrio de fase termodinámica basado en ecuaciones de estado."
+          - "Director: Dr. Martín Cismondi"
       - institution: Universidad Nacional del Comahue
         area: Ingeniería Electrónica
         start_date: 2001-03
@@ -123,7 +128,7 @@ cv:
         details: Docker, Linux, PostgreSQL, bases vectoriales
     idiomas:
       - label: Inglés
-        details: Excelente en lectura y escritura; buen desempeño oral y comprensión para trabajo técnico profesional.
+        details: Excelente en lectura y escritura; buen desempeño conversacional para trabajo técnico profesional.
       - label: Español
         details: Hablante nativo
     comunidad:
@@ -133,3 +138,7 @@ cv:
       - Ayudante de cátedra en Sistemas Operativos I (UNC).
 design:
   theme: classic
+settings:
+  render_command:
+    pdf_path: rendercv_output/Martin_E_Gaitan_CV_es.pdf
+    typst_path: rendercv_output/Martin_E_Gaitan_CV_es.typ

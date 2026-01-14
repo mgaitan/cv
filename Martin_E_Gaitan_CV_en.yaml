@@ -13,10 +13,11 @@ cv:
       username: martingaitan
   sections:
     profile:
-      - Computer Engineering (UNC). Python expert (started in 2006), focused on tooling, DX, and web applications.
+      - Computer Engineering (Universidad Nacional de Córdoba, 2011). Pythonist since 2006, focused on tooling, developer experience, and backend web systems.
       - Experience leading remote teams and open source projects; advocate of open standards and free software.
-      - Broad professional experience and currently strong in agent-assisted development, with continuous learning as a daily practice.
-      - Technical blog at [mgaitan.github.io](https://mgaitan.github.io/en).
+      - Broad professional experience as a developer, architect, speaker, and lecturer.
+      - Strong in agent-assisted development. Continuous learning as a daily practice.
+      - I maintain a technical weblog in Spanish and English at [mgaitan.github.io](https://mgaitan.github.io).
     experience:
       - company: ShipHero
         position: Staff Engineer / Developer Experience Team Manager
@@ -27,14 +28,6 @@ cv:
           - Led the Developer Experience team and internal engineering platform.
           - Built the central CLI for engineering workflows.
           - Improved tooling, CI, and productivity for distributed teams.
-      - company: Onapsis Inc.
-        position: Senior Python Developer
-        start_date: 2015-11
-        end_date: 2019-07
-        location: Córdoba, Argentina
-        highlights:
-          - Built a cybersecurity platform for Fortune 500 companies.
-          - Contributed to the architecture team and core Python components.
       - company: Instituto Técnico Superior de Córdoba
         position: Lecturer - Software Development Technician Program
         start_date: 2016-03
@@ -42,6 +35,14 @@ cv:
         location: Córdoba, Argentina
         highlights:
           - Professional Practice II (3rd year).
+      - company: Onapsis Inc.
+        position: Senior Python Developer
+        start_date: 2015-11
+        end_date: 2019-07
+        location: Córdoba, Argentina
+        highlights:
+          - Senior developer on the cybersecurity and compliance platform (Onapsis Security Platform) for Fortune 500 companies.
+          - My last role was on the architecture team.
       - company: Freelance / Upwork
         position: Python Developer
         start_date: 2013-08
@@ -55,10 +56,11 @@ cv:
         date: 2011-2013
         location: Córdoba, Argentina
         highlights:
-          - Scientific software for the oil and gas industry.
-          - Incubated by Universidad Nacional de Córdoba (Tecnoemprendedores).
-      - company: Machinalis S.R.L.
-        position: Senior Python / Django Developer
+          - Scientific software for thermodynamic modeling in the oil and gas industry.
+          - "Technologies: NumPy, SciPy, Fortran, Matplotlib, Jupyter, etc."
+          - Incubated by Universidad Nacional de Córdoba (Programa Tecnoemprendedores 2011-2013).
+      - company: Machinalis
+        position: Django Developer
         start_date: 2011-04
         end_date: 2012-08
         location: Córdoba, Argentina
@@ -83,17 +85,20 @@ cv:
         summary: Collaborative platform for price data collection.
       - name: "[curso-python-cientifico](https://github.com/mgaitan/curso-python-cientifico)"
         summary: Python course for science and engineering.
+      - name: "[Other projects](https://github.com/mgaitan?tab=repositories)"
+        summary: I have more than 300 GitHub projects, many of which I still maintain.
     open_source:
-      - Contributions to Cython, MoviePy, IPython/Jupyter, Django, and Ruff.
+      - Notable contributions to Cython, MoviePy, IPython/Jupyter, Django, and Ruff.
       - Maintainer of tools and extensions for the Python ecosystem.
     education:
       - institution: Universidad Nacional de Córdoba
         area: Computer Engineering
         start_date: 2005-03
-        end_date: 2011-12
+        end_date: 2011-03
         location: Córdoba, Argentina
         highlights:
-          - "Capstone project: GPEC 2010 (Global Phase Equilibrium Calculations)."
+          - "Capstone project: GPEC 2010 (Global Phase Equilibrium Calculations). A visualization tool for phase equilibrium diagrams based on equations of state."
+          - "Advisor: Dr. Martín Cismondi"
       - institution: Universidad Nacional del Comahue
         area: Electronic Engineering
         start_date: 2001-03
@@ -123,7 +128,7 @@ cv:
         details: Docker, Linux, PostgreSQL, vector databases
     languages:
       - label: English
-        details: Excellent reading and writing; solid speaking and listening for professional technical work.
+        details: Excellent reading and writing; strong conversational skills for professional technical work.
       - label: Spanish
         details: Native speaker
     community:
@@ -133,3 +138,7 @@ cv:
       - Teaching assistant for Operating Systems I (UNC).
 design:
   theme: classic
+settings:
+  render_command:
+    pdf_path: rendercv_output/Martin_E_Gaitan_CV_en.pdf
+    typst_path: rendercv_output/Martin_E_Gaitan_CV_en.typ
