@@ -53,7 +53,8 @@ cv:
           - "Perfil en Upwork: https://www.upwork.com/freelancers/~01f1ea8b8299fefcbf"
       - company: Phasety
         position: Co-fundador
-        date: 2011-2013
+        start_date: 2011-02
+        end_date: 2013-08
         location: Córdoba, Argentina
         highlights:
           - Software científico para modelado termodinámico aplicado a la industria del petróleo y gas.
@@ -97,8 +98,8 @@ cv:
         end_date: 2011-03
         location: Córdoba, Argentina
         highlights:
-          - "Proyecto integrador: GPEC 2010 (Global Phase Equilibrium Calculations). Software de visualización de diagramas de equilibrio de fase termodinámica basado en ecuaciones de estado."
-          - "Director: Dr. Martín Cismondi"
+          - "Proyecto integrador: GPEC 2010 (Global Phase Equilibrium Calculations). Software de visualización de diagramas de equilibrio de fase termodinámica basado en ecuaciones de estado. Director: Dr. Martín Cismondi"
+          - Ayudante de cátedra en Sistemas Operativos I y II (UNC, 2007-2009).
       - institution: Universidad Nacional del Comahue
         area: Ingeniería Electrónica
         start_date: 2001-03

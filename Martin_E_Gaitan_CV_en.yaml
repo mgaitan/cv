@@ -53,7 +53,8 @@ cv:
           - "Upwork profile: https://www.upwork.com/freelancers/~01f1ea8b8299fefcbf"
       - company: Phasety
         position: Co-founder
-        date: 2011-2013
+        start_date: 2011-02
+        end_date: 2013-08
         location: Córdoba, Argentina
         highlights:
           - Scientific software for thermodynamic modeling in the oil and gas industry.
