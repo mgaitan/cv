@@ -13,7 +13,7 @@ cv:
       username: martingaitan
   sections:
     profile:
-      - Computer Engineering (Universidad Nacional de Córdoba, 2011). Pythonist since 2006, focused on tooling, developer experience, and backend web systems.
+      - Computer Engineering (Universidad Nacional de Córdoba, 2011). Pythonist since 2006, focused on tooling/developer experience, data engineering/analytics and backend web systems.
       - Experience leading remote teams and open source projects; advocate of open standards and free software.
       - Broad professional experience as a developer, architect, speaker, and lecturer.
       - Strong in agent-assisted development. Continuous learning as a daily practice.
@@ -86,7 +86,7 @@ cv:
       - name: "[curso-python-cientifico](https://github.com/mgaitan/curso-python-cientifico)"
         summary: Python course for science and engineering.
       - name: "[Other projects](https://github.com/mgaitan?tab=repositories)"
-        summary: I have more than 300 GitHub projects, many of which I still maintain.
+        summary: I have more than 300 projects, many of which I still maintain.
     open_source:
       - Notable contributions to Cython, MoviePy, IPython/Jupyter, Django, and Ruff.
       - Maintainer of tools and extensions for the Python ecosystem.
@@ -98,7 +98,8 @@ cv:
         location: Córdoba, Argentina
         highlights:
           - "Capstone project: GPEC 2010 (Global Phase Equilibrium Calculations). A visualization tool for phase equilibrium diagrams based on equations of state."
-          - "Advisor: Dr. Martín Cismondi"
+          - "Advisor: Phd. Martín Cismondi"
+          - Teach assitant, Operating System I and II (UNC, 2007-2009).
       - institution: Universidad Nacional del Comahue
         area: Electronic Engineering
         start_date: 2001-03
@@ -133,9 +134,9 @@ cv:
         details: Native speaker
     community:
       - Speaker at national and international conferences.
-      - Member of Python Argentina.
+      - Member of Python Argentina, the most important Python community in Latin America.
       - Founding member of Open Data Córdoba, a civic hacktivism collective (election tallies, food prices, and more).
-      - Teaching assistant for Operating Systems I (UNC).
+      - Frequently provide pro bono mentoring and coaching to junior developers interested in the language.
 design:
   theme: classic
 settings:

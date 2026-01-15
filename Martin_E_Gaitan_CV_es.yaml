@@ -13,7 +13,7 @@ cv:
       username: martingaitan
   sections:
     perfil:
-      - Ingeniero en Computación (Universidad Nacional de Córdoba, 2011). Pythonista desde 2006, foco en tooling, developer experience y backend web.
+      - Ingeniero en Computación (Universidad Nacional de Córdoba, 2011). Pythonista desde 2006, foco en tooling/developer experience, ingeniería/analítica de datos y backend web.
       - Experiencia liderando equipos remotos y proyectos open source; promotor de estándares abiertos y software libre.
       - Amplia experiencia profesional como desarrollador, arquitecto, divulgador y docente.
       - Dominio de desarrollo asistido por agentes. Aprendizaje continuo como práctica habitual.
@@ -133,9 +133,9 @@ cv:
         details: Hablante nativo
     comunidad:
       - Disertante en conferencias nacionales e internacionales.
-      - Miembro de Python Argentina.
+      - Miembro de Python Argentina, la comunidad de Python más importante de Latinoamerica.
       - Miembro fundador de Open Data Córdoba, colectivo de hacktivismo cívico (escrutinios electorales, precios de alimentos y otros).
-      - Ayudante de cátedra en Sistemas Operativos I (UNC).
+      - Frecuentemente asesoro y hago coaching ad honorem a programadores/as junior que se interesen en el lenguaje.
 design:
   theme: classic
 settings:
