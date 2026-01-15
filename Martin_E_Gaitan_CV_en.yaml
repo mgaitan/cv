@@ -35,11 +35,18 @@ cv:
         location: Córdoba, Argentina
         highlights:
           - Professional Practice II (3rd year).
+      - company: Datopian
+        position: Senior Python Developer
+        start_date: 2015-08
+        end_date: 2015-11
+        location: Remote
+        highlights:
+          - CKAN customization and plugins
       - company: Onapsis Inc.
         position: Senior Python Developer
         start_date: 2015-11
         end_date: 2019-07
-        location: Córdoba, Argentina
+        location: Remote
         highlights:
           - Senior developer on the cybersecurity and compliance platform (Onapsis Security Platform) for Fortune 500 companies.
           - My last role was on the architecture team.
@@ -134,10 +141,10 @@ cv:
       - label: Spanish
         details: Native speaker
     community:
-      - Speaker at national and international conferences.
+      - "[Speaker at national](https://mgaitan.github.io/charlas/) and international conferences."
       - Member of Python Argentina, the most important Python community in Latin America.
-      - Founding member of Open Data Córdoba, a civic hacktivism collective (election tallies, food prices, and more).
-      - Frequently provide pro bono mentoring and coaching to junior developers interested in the language.
+      - Founding member of Open Data Córdoba, a civic hacktivism collective in Córdoba, Argentina (elections transparency, retail prices, and more).
+      - Frequently provide pro bono mentoring and coaching to junior developers interested in the Python language.
 design:
   theme: classic
 settings:

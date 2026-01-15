@@ -35,6 +35,13 @@ cv:
         location: Córdoba, Argentina
         highlights:
           - Práctica Profesionalizante II (3er año).
+      - company: Datopian
+        position: Senior Python Developer
+        start_date: 2015-08
+        end_date: 2015-11
+        location: Remote
+        highlights:
+          - Personalización del sistema CKAN
       - company: Onapsis Inc.
         position: Senior Python Developer
         start_date: 2015-11
@@ -133,9 +140,9 @@ cv:
       - label: Español
         details: Hablante nativo
     comunidad:
-      - Disertante en conferencias nacionales e internacionales.
+      - "[Disertante](https://mgaitan.github.io/charlas/) en conferencias nacionales e internacionales."
       - Miembro de Python Argentina, la comunidad de Python más importante de Latinoamerica.
-      - Miembro fundador de Open Data Córdoba, colectivo de hacktivismo cívico (escrutinios electorales, precios de alimentos y otros).
+      - Miembro fundador de Open Data Córdoba, colectivo de hacktivismo cívico (enfocado en transparencia electoral, precios de alimentos y otros).
       - Frecuentemente asesoro y hago coaching ad honorem a programadores/as junior que se interesen en el lenguaje.
 design:
   theme: classic
