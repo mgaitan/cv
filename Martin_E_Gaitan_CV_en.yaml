@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
 cv:
   name: Martín E. Gaitán
-  headline: Computer Engineer | Python expert | Developer Experience, data and backend web systems
+  headline: Staff-Level Backend Engineer | Developer Experience & Engineering Platform | Shipping Infrastructure
   location: Córdoba, Argentina
   email: gaitan@gmail.com
   phone: "+54 9 3513308454"
@@ -11,13 +11,16 @@ cv:
       username: mgaitan
     - network: LinkedIn
       username: martingaitan
+
   sections:
+
     profile:
-      - Computer Engineering (Universidad Nacional de Córdoba, 2011). Pythonist since 2006, focused on tooling/developer experience, data engineering/analytics and backend web systems.
-      - Experience leading remote teams and open source projects; advocate of open standards and free software.
-      - Broad professional experience as a developer, architect, speaker, and lecturer.
-      - Strong in agent-assisted development. Continuous learning as a daily practice.
+      - Computer Engineering (Universidad Nacional de Córdoba, 2011). Pythonist since 2006, focused on Developer Experience, internal tooling, backend systems and shipping infrastructure.
+      - Staff-level engineer with experience building engineering platforms from the ground up in high-scale e-commerce environments.
+      - Experience leading distributed teams and open source projects; advocate of open standards, pragmatic architecture, and engineering productivity.
+      - Strong in agent-assisted development and continuous learning as a daily practice.
       - I maintain a technical weblog in Spanish and English at [mgaitan.github.io](https://mgaitan.github.io).
+
     experience:
       - company: ShipHero
         position: Staff Engineer / Developer Experience Team Manager
@@ -25,9 +28,14 @@ cv:
         end_date: 2025-09
         location: Remote
         highlights:
-          - Led the Developer Experience team and internal engineering platform.
-          - Built the central CLI for engineering workflows.
-          - Improved tooling, CI, and productivity for distributed teams.
+          - Built and led the Developer Experience / Engineering Enablement team from inception.
+          - Architected and built the central CLI used daily across all engineering workflows.
+          - Standardized Python project structure and tooling across 20+ services.
+          - Redesigned CI pipelines (GitHub Actions), improving reliability and reducing costs and build times.
+          - Improved Docker images (size, caching, reproducibility) and deployment consistency.
+          - Implemented internal engineering telemetry to support productivity and platform decisions.
+          - Contributed to shipping infrastructure including carrier integrations, label generation, tracking workflows and rate APIs in an e-commerce logistics platform.
+
       - company: Instituto Técnico Superior de Córdoba
         position: Lecturer - Software Development Technician Program
         start_date: 2016-03
@@ -35,6 +43,7 @@ cv:
         location: Córdoba, Argentina
         highlights:
           - Professional Practice II (3rd year).
+
       - company: Datopian
         position: Senior Python Developer
         start_date: 2015-08
@@ -42,6 +51,7 @@ cv:
         location: Remote
         highlights:
           - CKAN customization and plugins
+
       - company: Onapsis Inc.
         position: Senior Python Developer
         start_date: 2015-11
@@ -49,7 +59,9 @@ cv:
         location: Remote
         highlights:
           - Senior developer on the cybersecurity and compliance platform (Onapsis Security Platform) for Fortune 500 companies.
-          - My last role was on the architecture team.
+          - Contributed to core backend architecture and platform-level Python components.
+          - Member of the architecture team in my final stage.
+
       - company: Freelance / Upwork
         position: Python Developer
         start_date: 2013-08
@@ -58,6 +70,7 @@ cv:
         highlights:
           - Web projects and automation for international clients.
           - "Upwork profile: https://www.upwork.com/freelancers/~01f1ea8b8299fefcbf"
+
       - company: Phasety
         position: Co-founder
         start_date: 2011-02
@@ -67,6 +80,7 @@ cv:
           - Scientific software for thermodynamic modeling in the oil and gas industry.
           - "Technologies: NumPy, SciPy, Fortran, Matplotlib, Jupyter, etc."
           - Incubated by Universidad Nacional de Córdoba (Programa Tecnoemprendedores 2011-2013).
+
       - company: Machinalis
         position: Django Developer
         start_date: 2011-04
@@ -74,30 +88,41 @@ cv:
         location: Córdoba, Argentina
         highlights:
           - Built web applications and APIs with Django.
+
     projects:
       - name: "[sphinxcontrib-mermaid](https://github.com/mgaitan/sphinxcontrib-mermaid)"
         summary: Sphinx extension for Mermaid diagrams.
         highlights:
           - Community-maintained open source project.
+
       - name: "[waliki](https://github.com/mgaitan/waliki)"
         summary: Wiki engine based on Django and Git.
+
       - name: "[fortran_magic](https://github.com/mgaitan/fortran_magic)"
         summary: IPython/Jupyter extension to integrate Fortran in notebooks.
+
       - name: "[python-package-copier-templates](https://github.com/mgaitan/python-package-copier-templates)"
         summary: Python project templates with Copier and best practices.
+
       - name: "[pytest-portion](https://github.com/mgaitan/pytest-portion)"
         summary: Pytest plugin for incremental/portion-based test runs.
+
       - name: "[richterm](https://github.com/mgaitan/richterm)"
         summary: Terminal/CLI utilities with Rich for DX.
+
       - name: "[preciosa](https://github.com/mgaitan/preciosa)"
         summary: Collaborative platform for price data collection.
+
       - name: "[curso-python-cientifico](https://github.com/mgaitan/curso-python-cientifico)"
         summary: Python course for science and engineering.
+
       - name: "[Other projects](https://github.com/mgaitan?tab=repositories)"
         summary: I have more than 300 projects, many of which I still maintain.
+
     open_source:
       - Notable contributions to Cython, MoviePy, IPython/Jupyter, Django, and Ruff.
       - Maintainer of tools and extensions for the Python ecosystem.
+
     education:
       - institution: Universidad Nacional de Córdoba
         area: Computer Engineering
@@ -107,7 +132,8 @@ cv:
         highlights:
           - "Capstone project: GPEC 2010 (Global Phase Equilibrium Calculations). A visualization tool for phase equilibrium diagrams based on equations of state."
           - "Advisor: Phd. Martín Cismondi"
-          - Teach assitant, Operating System I and II (UNC, 2007-2009).
+          - Teach assistant, Operating System I and II (UNC, 2007-2009).
+
       - institution: Universidad Nacional del Comahue
         area: Electronic Engineering
         start_date: 2001-03
@@ -115,6 +141,7 @@ cv:
         location: Neuquén, Argentina
         highlights:
           - 19 courses completed.
+
       - institution: EPET Nro 14
         area: Electronics Technician
         start_date: 1995-03
@@ -122,31 +149,36 @@ cv:
         location: Neuquén, Argentina
         highlights:
           - GPA 9.37.
+
     skills:
       - label: Languages
-        details: Python, JavaScript, Fortran, SQL, Rust (maturin)
+        details: Python, JavaScript, Fortran, SQL, Rust (maturin / PyO3 integration)
       - label: Backend
-        details: Django, FastAPI, REST/GraphQL APIs
+        details: Django, FastAPI, REST/GraphQL APIs, multi-service architectures
       - label: Tooling
-        details: CLI/TUI, Rust-Python integration, GitHub Actions, pytest
+        details: Internal CLI design, CI/CD architecture (GitHub Actions), Rust-Python integration, pytest, packaging standards
       - label: Data and optimization
         details: Pandas, ETL, data cleaning, visualization, scraping, SciPy, OR-Tools, NumPy
       - label: ML/LLMs
-        details: RAGs, LLM integration in products
+        details: RAG architectures, LLM integration in internal tools and products
       - label: Infra
-        details: Docker, Linux, PostgreSQL, vector databases
+        details: Docker optimization, Linux, PostgreSQL, vector databases, deployment automation
+
     languages:
       - label: English
-        details: Excellent reading and writing; strong conversational skills for professional technical work.
+        details: Professional working proficiency (B1/B2). Strong technical reading and writing; effective communication in distributed engineering teams.
       - label: Spanish
         details: Native speaker
+
     community:
       - "[Speaker at national](https://mgaitan.github.io/charlas/) and international conferences."
       - Member of Python Argentina, the most important Python community in Latin America.
       - Founding member of Open Data Córdoba, a civic hacktivism collective in Córdoba, Argentina (elections transparency, retail prices, and more).
       - Frequently provide pro bono mentoring and coaching to junior developers interested in the Python language.
+
 design:
   theme: classic
+
 settings:
   render_command:
     pdf_path: rendercv_output/Martin_E_Gaitan_CV_en.pdf
