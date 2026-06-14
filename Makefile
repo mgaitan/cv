@@ -1,4 +1,4 @@
-RENDERCV = uvx --from=rendercv[full]@v2.6 rendercv render
+RENDERCV = uvx --from=rendercv[full]@v2.8 rendercv render
 YAML_ES = Martin_E_Gaitan_CV_es.yaml
 YAML_EN = Martin_E_Gaitan_CV_en.yaml
 OUTPUT_BASE = Martin_E_Gaitan_CV
